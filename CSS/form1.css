@@ -1,0 +1,76 @@
+
+
+.formLogin {
+  background-color: #256670;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  position: under;
+  top: 50px;
+}
+
+.formLogin h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.formLogin form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLogin label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.formLogin input[type="text"],
+.formLogin input[type="password"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.formLogin input[type="text"]:focus,
+.formLogin input[type="password"]:focus {
+  border-bottom: 2px solid #EDFA8B;
+  outline: none;
+}
+
+.formLogin input[type="submit"] {
+  background-color: #EDFA8B;
+  border: none;
+  border-radius: 20px;
+  color: #256670;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.formLogin input[type="submit"]:hover {
+  background-color: #fff;
+  color: #256670;
+}
+
+.formLogin p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.formLogin #cliAq {
+  color: #EDFA8B;
+  font-weight: bold;
+  text-decoration: none;
+}

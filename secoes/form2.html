@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="icon" type="image/png" href="../img/environment-icon.png">
+    <title>Dream Clean</title>
+</head>
+<body>
+    <!--Menu-->
+    <div id="menu" class="menu">
+       <ul id="itens">
+        <li><a href="../index.html">Menu</a></li><!--Menu-->
+        <li><a href="./qmsomos.html">Quem somos</a></li> <!--Apresentação da solução e do problema-->
+        <li><a href="./monitoramento.html">Monitoramento de área</a></li> <!--Monitoramento-->
+        <li><a href="./produto.html">Projeto</a></li> <!--Nosso produto-->
+        <li><a href="./lixo.html">Como o lixo é descartado</a></li> <!--Complemento de como atuamos-->
+        <li><a href="./contato.html">Contato</a></li><!--Contato-->
+        <li><a href="./form.html">Login</a></li><!--área para se cadastrar em nosso site-->
+       </ul>
+    </div>
+    <!--Inicio do site-->
+    <br>
+    <br>
+    <div id="cadastro" class="cadastro">
+    <h2>Cadastre-se</h2>
+	<form id="formCadast" class="formCadast" onsubmit="validarForm2()">
+		<label for="username">Nome de usuário:</label><br>
+		<input type="text" id="username" name="username"><br>
+		<label for="email">E-mail:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="password">Senha:</label><br>
+		<input type="password" id="password" name="password"><br>
+		<label for="confirm-password">Confirme a senha:</label><br>
+		<input type="password" id="confirm-password" name="confirm-password"><br><br>
+		<label for="dob">Data de Nascimento:</label><br>
+		<input type="date" id="dob" name="dob"><br><br>
+		<label for="gender">Gênero:</label><br>
+		<select id="gender" name="gender">
+			<option value="">Selecione</option>
+			<option value="male">Masculino</option>
+			<option value="female">Feminino</option>
+			<option value="other">Outro</option>
+		</select><br><br>
+		<input type="submit" value="Cadastrar">
+	</form>
+    <p>Já possui uma conta? <a href="./form.html" class="cliAq" id="cliAq">Clique aqui</a></p>
+</div>
+<script src="../JS/validacaoForm2.js"></script>
+</body>
+</html>

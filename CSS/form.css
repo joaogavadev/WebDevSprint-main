@@ -1,0 +1,186 @@
+/* estilo da div */
+#cadastro {
+  background-color: #256670;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 400px;
+  height: fit-content;
+}
+
+.cadastro {
+  background-color: #1a4551;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 400px;
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: #edfa8b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #256670;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* animação no hover */
+input[type="submit"]:hover {
+  background-color: #FFF;
+  color: #266670;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.cliAq:hover {
+  color: #edfa8b;
+}
+
+.container {
+  background-color: #256670;
+  border-radius: 20px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-container input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container .label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.input-container input:focus + .label,
+.input-container input:valid + .label {
+  top: -20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.input-container .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #EDFA8B;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.input-container input:focus ~ .bar,
+.input-container input:valid ~ .bar {
+  transform: scaleX(1);
+}
+
+#gender option {
+  color: black;
+}
+
+#dob {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+#dob:focus {
+  outline: none;
+}
+
+#dob::-webkit-calendar-picker-indicator {
+  color: #fff;
+}
+
+#dob::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#dob::-webkit-clear-button {
+  display: none;
+}
